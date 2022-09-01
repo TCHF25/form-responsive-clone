@@ -1,0 +1,275 @@
+       body {
+            background-color: rgb(173, 170, 170);
+            font-family: Verdana;
+            text-align: center;
+            color: #79373f;
+            font-size: 0.8vw;
+            font-weight:300;
+            flex-direction: column;
+        }
+      
+        /* Styling the Form (Color, Padding, Shadow) */
+        .form {
+            align-self: center;
+            background-color: rgb(238, 235, 235);       
+            margin-top: 0px;
+            padding-top: 30px ;
+            box-shadow: rgba(131, 130, 130, 0.5);
+            margin-left: 30%;   
+            width : 37% ;
+        }
+
+        @media only screen and (max-width: 500px) {
+            .form {
+                font-size: 6px;
+               
+           }
+       }
+
+
+        .subtitle {
+            font-size: 10px;
+            font-weight: 400;
+            flex-grow: 3;
+        }
+
+        @media only screen and (max-width: 500px) {
+            .subtitle {
+                font-size: 8px;
+               
+           }
+        }
+
+        
+        .form-title {
+            text-align: center;
+            background-color: white;
+            height: 90px;
+            margin-top: 50px;
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+            margin-left: 30%;   
+            width : 37% ; 
+        }
+
+
+        @media only screen and (max-width: 500px) {
+            .form-title {
+                height: 60px;
+               
+           }
+        }
+
+        @media only screen and (max-width: 500px) {
+            .title {
+                font-size:10px;          
+           }
+        }
+
+
+        .title {
+            padding-top: 30px;
+            font-weight:900;  
+        }
+
+        
+        container {
+            display: flex;
+            flex-wrap: wrap;          
+            margin-bottom:  70px;
+            height: 30px;
+              
+        }
+
+        @media only screen and (max-width: 500px) {
+            container {
+                margin-bottom:120px;
+               
+           }
+        }
+
+
+        .form-control {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+
+        .form-control label {
+            display: block;
+            margin-bottom: 10px;
+            margin-left: 20px;
+        }
+
+        @media only screen and (max-width: 500px) {
+            .form-control input {
+                padding: 4px;
+               
+           }
+       }
+    
+        .form-control input,
+        .form-control select {
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 10px;
+            display:block;
+            width: 95%;
+        }
+ 
+        .form-control input[type="date"] {
+            width: 70%;
+            height: 10%;
+            margin-right: 10%;
+            margin-left: 10%;
+        }
+
+        @media only screen and (max-width: 500px) {
+            .form-control input[type="date"] {
+                size:3px;
+               
+           }
+       }
+
+        .form-control input[type="text"] {
+            width: 70%;
+            height: 10%;
+            margin-left: 30px;
+        }
+
+        @media only screen and (max-width: 500px) {
+            .form-control input[type="text"] {
+                margin-left: 15px;
+
+           }
+       }
+
+
+
+        .form-control input[type="radio"] {
+            float:left;
+            width: auto;
+        
+        }
+
+        @media only screen and (max-width: 500px) {
+            .form-control input[type="radio"] {
+                float: none;
+               
+               }
+           }
+
+
+        @media only screen and (max-width: 500px) {
+            .radio-button-1 {
+                flex-direction: column;
+               
+           }
+        }
+
+        .radio-button-1 {
+            padding-top: 10px;
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        @media only screen and (max-width: 500px) {
+            .radio-button-1 .b {
+                margin-left:0px;
+                margin-right: 20%;
+               
+           }
+        } 
+
+        .radio-button-1 .b {
+            margin-left: 26%;
+
+        }
+
+        .radio-button-2 {
+            padding-top: 10px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap; 
+        }
+
+        .radio-button-2 .b {
+            margin-left: 40%;
+
+        }   
+
+        
+ 
+        .radio-button-4 {
+             padding-top: 10px;
+             display: flex;
+             flex-direction: row;
+             
+         }
+
+         
+ 
+        .radio-button-4 .b {
+             margin-left: 170px;
+ 
+         } 
+
+         @media only screen and (max-width: 500px) {
+            .radio-button-4 .b {
+                margin-left: 50px
+               
+               }
+           }
+
+
+        textarea {
+            height : 10vw;
+            border: 1px solid #777;
+            border-radius: 1px;
+            border-width: 0,1px;
+            font-family: inherit;
+            padding: 0;
+            position: relative;
+            width: 90%;
+            max-width: 92%;
+            margin-left: 20px;
+        }
+
+
+        @media only screen and (max-width: 500px) {
+            textarea  {
+                width:75%;
+                font-size: 5px;
+               
+           }
+       }
+    
+        /* Styling Button */
+        button {
+            align-self: center;
+            position: relative;
+            width: 120px;
+            height: 30px;
+            padding: 5px;
+            margin-bottom: 20px;
+            background-color: #717171;
+            color: white;
+            border-radius: 3px;
+            font-family: inherit;
+            font-size: 10px;           
+        }
+
+        @media only screen and (max-width: 500px) {
+            button {
+                width: 60px;
+                height: 15px;
+                padding: 3px; 
+                font-size: 5px;
+               
+           }
+       }
+
+
+        
+    
